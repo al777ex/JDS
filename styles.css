@@ -67,4 +67,13 @@ ul#navbartext.navbar-nav.mr-auto {
 
 main {
     background: white;
+    margin-top: 20px;
+}
+
+h5 {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
 }
