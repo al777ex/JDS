@@ -10,7 +10,7 @@ body {
 }
 
 a#logo.navbar-brand {
-    padding-left: 20px;
+    padding-left: 33px;
 }
 
 .d-inline-block.align-top {
@@ -63,4 +63,8 @@ ul#navbartext.navbar-nav.mr-auto {
 
 .nav-link:hover {
     text-decoration: underline;
+}
+
+main {
+    background: white;
 }
