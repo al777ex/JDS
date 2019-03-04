@@ -28,11 +28,19 @@ ul {
 }
 
 .navbar-nav.mr-auto {
-    font-size: 14px;
+    font-size: 13.5px;
     font-style: italic;
     margin-bottom: -15px;
+    padding-left: 90px;
 }
 
+ul#navbartext.navbar-nav.mr-auto {
+    font-size: large;
+}
+
+.nav-item.active {
+    text-decoration: underline;
+}
 .inlinelist {
     font-size: 18px;
 }
@@ -43,11 +51,11 @@ ul {
 }
 
 .nav-item.active {
-    padding-right: 15px;
+    padding-right: 30px;
 }
 
 .nav-item {
-    padding-right: 15px;
+    padding-right: 30px;
 }
 
 .nav-link:hover {
