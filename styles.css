@@ -9,8 +9,12 @@ body {
     text-decoration: overline;
 }
 
+a#logo.navbar-brand {
+    padding-left: 20px;
+}
+
 .d-inline-block.align-top {
-    margin-left: 90px;
+    margin-left: 75px;
 }
 
 #navbarText {
