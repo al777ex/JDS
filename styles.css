@@ -1,0 +1,55 @@
+body {
+   background: #4f4f77; 
+}
+
+#logo {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-decoration: overline;
+}
+
+.d-inline-block.align-top {
+    margin-left: 90px;
+}
+
+#navbarText {
+    margin-left: 70px;
+    font-family:none;
+    margin-bottom: -15px;
+}
+
+div#navbarText.collapse.navbar-collapse {
+    margin-bottom: -15px;
+}
+
+ul {
+    color: white;
+}
+
+.navbar-nav.mr-auto {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: -15px;
+}
+
+.inlinelist {
+    font-size: 18px;
+}
+
+.navbar {
+    background:silver;
+    border:none;
+}
+
+.nav-item.active {
+    padding-right: 15px;
+}
+
+.nav-item {
+    padding-right: 15px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
