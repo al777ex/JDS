@@ -25,12 +25,17 @@ a#logo.navbar-brand {
 
 div#navbarText.collapse.navbar-collapse {
     margin-bottom: -15px;
+    background:#c5c8cd;
+    border-radius: 5px;
+
 }
 
-ul {
-    color: white;
-}
 
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    border-style: outset;
+    border-width: thick;
+}
 .navbar-nav.mr-auto {
     font-size: 13.5px;
     font-style: italic;
@@ -39,17 +44,19 @@ ul {
 
 ul#navbartext.navbar-nav.mr-auto {
     font-size: large;
+ 
 }
 
 .nav-item.active {
-    text-decoration: underline;
+   color: white; 
+    
 }
 .inlinelist {
     font-size: 18px;
 }
 
 .navbar {
-    background:silver;
+    background: navy;
     border:none;
 }
 
@@ -61,8 +68,16 @@ ul#navbartext.navbar-nav.mr-auto {
     padding-right: 30px;
 }
 
+a.nav-link {
+    font-size: 16px;
+    color: white;
+}
+
 .nav-link:hover {
-    text-decoration: underline;
+    border-style: solid;
+    border-right: none;
+    border-left: none;
+    border-top: none;
 }
 
 main {
